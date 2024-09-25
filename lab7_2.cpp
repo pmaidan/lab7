@@ -4,7 +4,7 @@
 // 005
 // Due Date: 09/25/2024
 // Date completed: 09/24/2024
-// Date submitted: 09/24/2024
+// Date submitted: 09/25/2024
 
 
 // This program calculates the distance a sound traveled from the source, using the speed of sound in different medium.
@@ -44,7 +44,7 @@ int main()  // Main function is the starting point of the program execution.
         cout << sTimeRequest;
         cin >> fTime;   // Store the input in fTime.
 
-        if (fTime <= 0.0 ||  fTime > 30.0) // Check if the user entered the value less than 0 or more than 30 seconds.
+        if (fTime < 0.0 ||  fTime > 30.0) // Check if the user entered the value less than 0 or more than 30 seconds.
         {
             cout << sTimeErrorMessage;   // Display the error message.
             return 1;   // Return 1 if the time input was invalid in the iMenuChoice = 1 and terminate the program.
@@ -60,10 +60,10 @@ int main()  // Main function is the starting point of the program execution.
         cout << sTimeRequest;
         cin >> fTime;   // Store the input in fTime.
 
-        if (fTime <= 0.0 ||  fTime > 30.0) // Check if the user entered the value less than 0 or more than 30 seconds.
+        if (fTime < 0.0 ||  fTime > 30.0) // Check if the user entered the value less than 0 or more than 30 seconds.
         {
             cout << sTimeErrorMessage;   // Display the error message.
-            return 2;   // Return 2 if the time input was invalid in iMenuChoice 2 and terminate the program.
+            return 2;   // Return 2 if the time input was invalid in iMenuChoice = 2 and terminate the program.
         }
 
         // Calculate the distance a sound traveled through air.
@@ -76,7 +76,7 @@ int main()  // Main function is the starting point of the program execution.
         cout << sTimeRequest;
         cin >> fTime;   // Store the input in fTime.
 
-        if (fTime <= 0.0 ||  fTime > 30.0) // Check if the user entered the value less than 0 or more than 30 seconds.
+        if (fTime < 0.0 ||  fTime > 30.0) // Check if the user entered the value less than 0 or more than 30 seconds.
         {
             cout << sTimeErrorMessage;   // Display the error message.
             return 3;   // Return 3 if the time input was invalid in iMenuCHoice = 3 and terminate the program.
@@ -92,7 +92,7 @@ int main()  // Main function is the starting point of the program execution.
         cout << sTimeRequest;
         cin >> fTime;   // Store the input in fTime.
 
-        if (fTime <= 0.0 ||  fTime > 30.0) // Check if the user entered the value less than 0 or more than 30 seconds.
+        if (fTime < 0.0 ||  fTime > 30.0) // Check if the user entered the value less than 0 or more than 30 seconds.
         {
             cout << sTimeErrorMessage;   // Display the error message.
             return 4;   // Return 4 if the time input was invalid in iMenuChoice = 4 and terminate the program.
